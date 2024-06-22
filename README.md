@@ -16,13 +16,13 @@ Welcome to my Personal Portfolio Website! This project showcases my skills and p
 - **Deployment:** [Hosting Platforms : GitHub Pages]
 - **Canva:** Styling images and pages.
  
-## Link to Website
+## Link to Websit
 
-Visit my Portfolio Website [here].(https://discord.com/oauth2/authorize?client_id=1226537919439831161&permissions=0&scope=bot)
+Visit my Portfolio Website [here](https://aishrma.github.io/Personal-Portfolio/)
 
 ## Contact
 
-Feel free to reach out via [your email](mailto:aishsharma1102@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/aishwarya-sharma-a0316a306/).
+Feel free to reach out via [my email](mailto:aishsharma1102@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/aishwarya-sharma-a0316a306/).
 
 ---
 
