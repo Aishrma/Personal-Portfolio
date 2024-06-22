@@ -10,13 +10,13 @@ Welcome to my Personal Portfolio Website! This project showcases my skills and p
 - **Projects:** Showcase of selected projects with descriptions, technologies used, and links to live demos or repositories.
 - **Contact:** Contact form and social media links for easy communication.
 
-## Technologies Used
+## Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript.
 - **Deployment:** [Hosting Platforms : GitHub Pages]
 - **Canva:** Styling images and pages.
  
-### Link to Website
+## Link to Website
 
 Visit my Portfolio Website [here].(https://discord.com/oauth2/authorize?client_id=1226537919439831161&permissions=0&scope=bot)
 
