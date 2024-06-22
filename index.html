@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css" text="css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo"><img src="./assets/logo.png" alt="logo" width="64"></a>
+        <nav class="navbar">
+            <!-- style="--i:1" - this makes the elements come one by one. -->
+            <a href="#" style="--i:1" class="active">Home</a>
+            <a href="#aboutme" style="--i:2">About</a>
+            <a href="#skills" style="--i:3">Skills</a>
+            <a href="#project" style="--i:4">Projects</a>
+            <a href="#contact" style="--i:5">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-text-container">
+                    <h3>Hello, It's Me</h3>
+                    <h1>Aishwarya</h1>
+                    <h3>And I'm a <span class="text"></span></h3>
+                    <p>I'm a tech enthusiast currently in my 2nd Year and persuing my
+                        degree in CSE. I'm a Web Developer learner and...
+                    </p>
+                    </p>
+                    <div class="hero-contacts">
+                        <a href="https://www.facebook.com/profile.php?id=100093559361660" style="--i:7"
+                            target="_blank"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.instagram.com/" style="--i:8" target="_blank"><i
+                                class='bx bxl-instagram'></i></a>
+                        <a href="https://www.linkedin.com/in/aishwarya-sharma-a0316a306/" style="--i:9"
+                            target="_blank"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://x.com/home" style="--i:10" target="_blank"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                    <a href="#aboutme" class="aboutme-btn-box">More About Me</a>
+                </div>
+                <div class="hero-img">
+                    <img src="./assets/hero-bgpic.png" alt="my-photo">
+                </div>
+            </div>
+
+        </section>
+
+        <!-- About Me -->
+        <section class="aboutme" id="aboutme">
+            <div class="aboutme-img">
+                <img src="./assets/aboutmeimg.png" alt="">
+            </div>
+            <div class="aboutme-text">
+                <h2>About <span>Me</span></h2>
+                <h4>Web Development Beginner !!</h4>
+                <p>I'm a first-year student pursuing an Integrated Master's degree in Computer Science and Engineering
+                    at IIIT Bangalore. I have a strong passion for technology and am constantly seeking opportunities to
+                    enhance my skills and tackle new challenges. My enthusiasm for learning drives me to explore various
+                    areas of technology and stay updated with the latest advancements. I thrive in team environments and
+                    enjoy collaborating with others, drawing inspiration and knowledge from my peers. As a core member
+                    of the Theatre Club (Parvaaz), I have gained valuable experience in teamwork, communication, and
+                    creative problem-solving. This role has not only honed my leadership skills but also reinforced my
+                    ability to work effectively in diverse groups. I'm always on the lookout for opportunities to grow,
+                    learn, and contribute meaningfully to any team I'm a part of.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h1 class="subtitle">My <span>Skills</span></h1>
+            <div class="container">
+                <div class="container-skills">
+                    <h1 class="heading1">Technical Skills</h1>
+                    <div class="tech-bar">
+                        <div class="bar"><i style="color: #c95d2e" class='bx bxl-html5'></i>
+                            <div class="info">
+                                <span>HTML</span>
+                            </div>
+                            <div class="progress-line html">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="bar"><i style="color: #147bbc" class='bx bxl-css3'></i>
+                            <div class="info">
+                                <span>CSS</span>
+                            </div>
+                            <div class="progress-line css">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="bar"><i style="color: #b0bc1e" class='bx bxl-javascript'></i>
+                            <div class="info">
+                                <span>Javascript</span>
+                            </div>
+                            <div class="progress-line js">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="bar"><i style="color: #c32ec9" class='bx bxl-python'></i>
+                            <div class="info">
+                                <span>Python</span>
+                            </div>
+                            <div class="progress-line python">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="bar"><i style="color: #69bcbc" class='bx bxl-c-plus-plus'></i>
+                            <div class="info">
+                                <span>C/C++</span>
+                            </div>
+                            <div class="progress-line cplusplus">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="container-skills">
+                    <h1 class="heading1">Professional Skills</h1>
+                    <div class="radial-bars">
+
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewbox="0 0 200 200">
+                                <circle class="progrss-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="percentage">80%</div>
+                            <div class="text">Creativity</div>
+                        </div>
+
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewbox="0 0 200 200">
+                                <circle class="progrss-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="percentage">70%</div>
+                            <div class="text">Communication</div>
+                        </div>
+
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewbox="0 0 200 200">
+                                <circle class="progrss-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="percentage">85%</div>
+                            <div class="text">Problem Solving</div>
+                        </div>
+
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewbox="0 0 200 200">
+                                <circle class="progrss-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="percentage">95%</div>
+                            <div class="text">Team Work</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- My Projects -->
+        <section id="project">
+            <div id="portfolio">
+                <div class="main-text" id="project">
+                    <h2>My <span>Projects</span></h2>
+
+                    <div class="portfolio-content">
+                        <div class="row">
+                            <img src="./assets/Discord_Bot.png" alt="">
+                            <div class="layer">
+                                <h5>Alibi - Arcade Bot</h5>
+                                <p>This bot provides Discord users with a fun and engaging gaming experience within
+                                    the Discord arcade environment. Helps in stimulating problem-solving skills through
+                                    a
+                                    variety of cipher decryption questions and puzzles, delivering an interactive
+                                    storytelling experience where players become detectives, piecing together clues to
+                                    solve compelling murder mysteries.
+                                </p>
+                                <a href="https://github.com/Aishrma/Alibi.exe" target="_blank"><i
+                                        class='bx bx-link-external' style="color: black"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <img src="./assets/Traffic_lights.png" alt="">
+                            <div class="layer">
+                                <h5>Automatic Traffic Lights</h5>
+                                <p>Traffic lights usually consists of three signals through the usage of colors, arrows,
+                                    and other images to convey various messages. Traffic lights are in sets of red,
+                                    yellow, and green lights at intersection of roads. Traffic is then controlled as
+                                    vehicles receive signals/messages of when to stop and when to go.
+                                </p>
+                                <a href="https://github.com/Aishrma/Automatic-Traffic-Light" target="_blank"><i
+                                        class='bx bx-link-external' style="color: black"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <img src="./assets/Netflix_proj3.png" alt="">
+                            <div class="layer">
+                                <h5>Netflix-Clone</h5>
+                                <p>A Netflix clone website replicates the look and feel of Netflix, providing a similar
+                                    user experience with a focus on streaming content. This clone is built using HTML
+                                    for the structure and CSS for the styling.</p>
+                                <a href="https://github.com/Aishrma/Netflix-Clone" target="_blank"><i
+                                        class='bx bx-link-external' style="color: black"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="contact-text">
+                <h2>Contact <span>Me</span></h2>
+                <h4>Let's work Together</h4>
+                <p>Feel free to reach out to me for any queries or collaborations. I'm always open to new opportunities
+                    and
+                    am excited to connect with like-minded individuals. Let's create something amazing together!</p>
+                <div class="contact-list">
+                    <li><i class='bx bxs-send'></i><a href="mailto:aishsharma1102@gmail.com"
+                            id="emailLink">aishsharma1102@gmail.com</li>
+                    <li><i class='bx bxs-phone'></i><a href="tel:+919425280241" id="phoneLink">+91 9425280241</li>
+                </div>
+                <div class="contact-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100093559361660" style="--i:6" target="_blank"><i
+                            class='bx bxl-facebook-circle'></i></a>
+                    <a href="https://www.instagram.com/" style="--i:7" target="_blank"><i
+                            class='bx bxl-instagram'></i></a>
+                    <a href="https://www.linkedin.com/in/aishwarya-sharma-a0316a306/" style="--i:8" target="_blank"><i
+                            class='bx bxl-linkedin'></i></a>
+                    <a href="https://x.com/home" style="--i:9" target="_blank"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form action="#">
+                    <div class="input-box">
+                        <div class="input-field field">
+                            <input type="name" placeholder="Enter Your Name" id="name" class="item" autocomplete="off">
+                            <div class="err-txt">Name can't be blank !</div>
+                        </div>
+                    </div>
+
+                    <div class="input-box">
+                        <div class="input-field field">
+                            <input type="text" placeholder="Enter Your Email" id="email" class="item"
+                                autocomplete="off">
+                            <div class="err-txt email">Email Address can't be blank !</div>
+                        </div>
+                    </div>
+
+                    <div class="input-box">
+                        <div class="input-field field">
+                            <input type="text" placeholder="Enter Your Contact No." id="phone" class="item"
+                                autocomplete="off">
+                            <div class="err-txt">Contact No. can't be blank !</div>
+                        </div>
+                    </div>
+
+                    <div class="input-box">
+                        <div class="input-field field">
+                            <input type="text" placeholder="Enter Your Subject" id="subject" class="item"
+                                autocomplete="off">
+                            <div class="err-txt">Subject can't be blank !</div>
+                        </div>
+                    </div>
+
+                    <div class="textarea-field field">
+                        <textarea name="" id="message" cols="40" rows="10" placeholder="Enter Your Message...."
+                            class="item" autocomplete="off"></textarea>
+                        <div class="err-txt">Message can't be blank !</div>
+                    </div>
+
+                    <button type="submit" class="send">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <div class="lasttext">
+            <p>Developed with Love by Aishwarya Sharma &copy; 2024</p>
+        </div>
+        <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
