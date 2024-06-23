@@ -16,9 +16,14 @@ Welcome to my Personal Portfolio Website! This project showcases my skills and p
 - **Deployment:** [Hosting Platforms : GitHub Pages]
 - **Canva:** Styling images and pages.
  
-## Link to Websit
+## Link to Website
 
 Visit my Portfolio Website [here](https://aishrma.github.io/Personal-Portfolio/)
+
+## Furthur Imrprovements
+
+- Will make it more responsive.
+- Will be connecting the contact to a database.
 
 ## Contact
 
