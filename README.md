@@ -23,7 +23,7 @@ Visit my Portfolio Website [here](https://aishrma.github.io/Personal-Portfolio/)
 ## Furthur Imrprovements
 
 - Will make it more responsive.
-- Will be connecting the contact to a database.
+- Will be connecting the contact form to a database.
 
 ## Contact
 
