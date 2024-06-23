@@ -15,10 +15,11 @@ Welcome to my Personal Portfolio Website! This project showcases my skills and p
 - **Frontend:** HTML, CSS, JavaScript.
 - **Deployment:** [Hosting Platforms : GitHub Pages]
 - **Canva:** Styling images and pages.
+- **Vercel** For deployment of the website.
 
 ## Link to Website
 
-Visit my Portfolio Website [here](http://personalportfolio.in/)
+Visit my Portfolio Website [here](https://personal-portfolio-eight-gray.vercel.app/)
 
 ## Furthur Imrprovements
 
